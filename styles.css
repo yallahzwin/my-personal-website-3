@@ -1,0 +1,186 @@
+@font-face {
+  font-family: minecraft;
+  src: url(./Monocraft.tff);
+}
+/* Lines 6-15 is AI generated */
+@keyframes flyInTop { 
+  0% {
+    transform: translateY(-100px); 
+    opacity: 0;                   
+  }
+  100% {
+    transform: translateY(0);     
+    opacity: 1;                   
+  }
+}
+/* Lines 6-15 is mostly AI generated */
+body{
+    background: linear-gradient(90deg,rgba(137, 32, 186, 1) 0%, rgba(174, 92, 204, 1) 49%, rgba(212, 120, 255, 1) 100%);
+}
+p{
+    font-size: 18px;
+}
+li{
+    font-size: 20px;
+}
+.everything{
+    animation: flyInTop 0.8s ease-out forwards;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.pfpsocial{
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 50px;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.pfp{
+    border-radius: 20px;
+    border: 5px solid grey;
+    background-color: #C3B1E1;
+    padding: 25px;
+    filter: drop-shadow(10px 10px 12px black);
+    display: grid;
+    place-items: center;
+    
+}
+.socials{
+    border-radius: 20px;
+    border: 5px solid gray;
+    background-color: #C3B1E1;
+    margin-top: 25px;
+    filter: drop-shadow(10px 10px 12px black);
+    width: fit-content;
+    height: fit-content;
+}
+.socials > a > img{
+    transition-duration: 500ms;
+    width: 45px;
+}
+.socials > a > img:hover{
+    width: 50px;
+    filter: invert(30%);
+}
+.main{
+    font-family: minecraft;
+    font-size: 12px;
+    border-radius: 20px;
+    border: 5px solid grey;
+    padding: 25px;
+    margin-right: 100px;
+    margin-top: 50px;
+    width: 725px;
+    height: 500px;
+    background-color: #C3B1E1;
+    filter: drop-shadow(10px 10px 12px black);
+    display: grid;
+    justify-items: stretch;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    user-select: none;
+}
+.item{
+    background-color: #a78dd3;
+    position: relative;
+    display: grid;
+    justify-self: center;
+    place-items: center;
+    border-radius: 20px;
+    filter: drop-shadow(10px 10px 12px black);
+    bottom: 0px;
+    width: 200px;
+    height: 100px;
+    border: 5px solid grey;
+    padding: 25px;
+}
+.maindie{
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
+.move{
+    width: 250px;
+    height: fit-content;
+    padding: 25px;
+    position: absolute;
+    top: 40px;
+}
+.die{
+    position: relative;
+    opacity: 0%;
+    display: none;
+    pointer-events: none;
+}
+.alive{
+    position: relative;
+    opacity: 100%;
+    pointer-events: none;
+}
+.aboutmedead{
+    display: none;
+    pointer-events: none;
+}
+.aboutmealive{
+    filter: drop-shadow(10px 10px 12px black);
+    width: fit-content;
+    height: fit-content;
+    display: relative;
+    bottom: 0;
+    border-radius: 20px;
+    border: 5px solid grey;
+    padding: 10px;
+    background-color: #a78dd3;
+    justify-content: center;
+}
+.projectsdead{
+    display: none;
+    pointer-events: none;
+}
+.projectsalive{
+    filter: drop-shadow(10px 10px 12px black);
+    width: fit-content;
+    height: fit-content;
+    display: relative;
+    bottom: 0;
+    border-radius: 20px;
+    border: 5px solid grey;
+    padding: 10px;
+    background-color: #a78dd3;
+    justify-content: center;
+}
+.hobbiesdead{
+    display: none;
+    pointer-events: none;
+}
+.hobbiesalive{
+    filter: drop-shadow(10px 10px 12px black);
+    width: fit-content;
+    height: fit-content;
+    display: relative;
+    bottom: 0;
+    border-radius: 20px;
+    border: 5px solid grey;
+    padding: 10px;
+    background-color: #a78dd3;
+    justify-content: center;
+}
+.gamesdead{
+    display: none;
+    pointer-events: none;
+}
+.gamesalive{
+    filter: drop-shadow(10px 10px 12px black);
+    width: fit-content;
+    height: fit-content;
+    display: relative;
+    bottom: 0;
+    border-radius: 20px;
+    border: 5px solid grey;
+    padding: 10px;
+    background-color: #a78dd3;
+    justify-content: center;
+}
