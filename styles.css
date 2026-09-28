@@ -111,6 +111,8 @@ li{
 }
 .die{
     display: none;
+    opacity: 0%;
+    position: relative;
     pointer-events: none;
 }
 .alive{
