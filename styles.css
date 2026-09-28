@@ -110,69 +110,10 @@ li{
     top: 40px;
 }
 .die{
-    position: relative;
-    opacity: 0%;
     display: none;
     pointer-events: none;
 }
 .alive{
-    position: relative;
-    opacity: 100%;
-    pointer-events: none;
-}
-.aboutmedead{
-    display: none;
-    pointer-events: none;
-}
-.aboutmealive{
-    filter: drop-shadow(10px 10px 12px black);
-    width: fit-content;
-    height: fit-content;
-    display: relative;
-    bottom: 0;
-    border-radius: 20px;
-    border: 5px solid grey;
-    padding: 10px;
-    background-color: #a78dd3;
-    justify-content: center;
-}
-.projectsdead{
-    display: none;
-    pointer-events: none;
-}
-.projectsalive{
-    filter: drop-shadow(10px 10px 12px black);
-    width: fit-content;
-    height: fit-content;
-    display: relative;
-    bottom: 0;
-    border-radius: 20px;
-    border: 5px solid grey;
-    padding: 10px;
-    background-color: #a78dd3;
-    justify-content: center;
-}
-.hobbiesdead{
-    display: none;
-    pointer-events: none;
-}
-.hobbiesalive{
-    filter: drop-shadow(10px 10px 12px black);
-    width: fit-content;
-    height: fit-content;
-    display: relative;
-    bottom: 0;
-    border-radius: 20px;
-    border: 5px solid grey;
-    padding: 10px;
-    background-color: #a78dd3;
-    justify-content: center;
-}
-.gamesdead{
-    display: none;
-    pointer-events: none;
-}
-.gamesalive{
     filter: drop-shadow(10px 10px 12px black);
     width: fit-content;
     height: fit-content;
