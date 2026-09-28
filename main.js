@@ -17,8 +17,8 @@ function displayPhrase()
         document.getElementById("item3").classList.add("die");
         document.getElementById("item4").classList.add("die");
         document.getElementById("main").classList.add("maindie");
-        document.getElementById("aboutme").classList.remove("aboutmedead");
-        document.getElementById("aboutme").classList.add("aboutmealive");
+        document.getElementById("aboutme").classList.remove("die");
+        document.getElementById("aboutme").classList.add("alive");
     } else {
         document.getElementById("item").innerHTML = '<h1>About Me</h1>';
         document.getElementById("item").classList.remove("move");
@@ -26,8 +26,8 @@ function displayPhrase()
         document.getElementById("item3").classList.remove("die");
         document.getElementById("item4").classList.remove("die");
         document.getElementById("main").classList.remove("maindie");
-        document.getElementById("aboutme").classList.add("aboutmedead");
-        document.getElementById("aboutme").classList.remove("aboutmealive");
+        document.getElementById("aboutme").classList.add("die");
+        document.getElementById("aboutme").classList.remove("alive");
     }
 }
 function displayPhrase2()
@@ -44,8 +44,8 @@ function displayPhrase2()
         document.getElementById("item3").classList.add("die");
         document.getElementById("item4").classList.add("die");
         document.getElementById("main").classList.add("maindie");
-        document.getElementById("projects").classList.remove("projectsdead");
-        document.getElementById("projects").classList.add("projectsalive");
+        document.getElementById("projects").classList.remove("die");
+        document.getElementById("projects").classList.add("alive");
     } else {
         document.getElementById("item2").innerHTML = '<h1>Projects</h1>';
         document.getElementById("item2").classList.remove("move");
@@ -53,8 +53,8 @@ function displayPhrase2()
         document.getElementById("item3").classList.remove("die");
         document.getElementById("item4").classList.remove("die");
         document.getElementById("main").classList.remove("maindie");
-        document.getElementById("projects").classList.add("projectsdead");
-        document.getElementById("projects").classList.remove("projectsalive");
+        document.getElementById("projects").classList.add("die");
+        document.getElementById("projects").classList.remove("alive");
     }
 }
 function displayPhrase3()
@@ -71,8 +71,8 @@ function displayPhrase3()
         document.getElementById("item2").classList.add("die");
         document.getElementById("item4").classList.add("die");
         document.getElementById("main").classList.add("maindie");
-        document.getElementById("hobbies").classList.remove("hobbiesdead");
-        document.getElementById("hobbies").classList.add("hobbiesalive");
+        document.getElementById("hobbies").classList.remove("die");
+        document.getElementById("hobbies").classList.add("alive");
     } else {
         document.getElementById("item3").innerHTML = '<h1>Hobbies</h1>';
         document.getElementById("item3").classList.remove("move");
@@ -80,8 +80,8 @@ function displayPhrase3()
         document.getElementById("item2").classList.remove("die");
         document.getElementById("item4").classList.remove("die");
         document.getElementById("main").classList.remove("maindie");
-        document.getElementById("hobbies").classList.add("hobbiesdead");
-        document.getElementById("hobbies").classList.remove("hobbiesalive");
+        document.getElementById("hobbies").classList.add("die");
+        document.getElementById("hobbies").classList.remove("alive");
     }
 }
 function displayPhrase4()
@@ -98,8 +98,8 @@ function displayPhrase4()
         document.getElementById("item2").classList.add("die");
         document.getElementById("item3").classList.add("die");
         document.getElementById("main").classList.add("maindie");
-        document.getElementById("games").classList.remove("gamesdead");
-        document.getElementById("games").classList.add("gamesalive");
+        document.getElementById("games").classList.remove("die");
+        document.getElementById("games").classList.add("alive");
     } else {
         document.getElementById("item4").innerHTML = '<h1>My Game Recs</h1>';
         document.getElementById("item4").classList.remove("move");
@@ -107,7 +107,7 @@ function displayPhrase4()
         document.getElementById("item2").classList.remove("die");
         document.getElementById("item3").classList.remove("die");
         document.getElementById("main").classList.remove("maindie");
-        document.getElementById("games").classList.add("gamesdead");
-        document.getElementById("games").classList.remove("gamesalive");
+        document.getElementById("games").classList.add("die");
+        document.getElementById("games").classList.remove("alive");
     }
 }
